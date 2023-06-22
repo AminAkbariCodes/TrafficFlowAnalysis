@@ -1,6 +1,6 @@
 # Traffic Flow and Density Analysis
 
-This Python script is designed to analyze different aspects of traffic flow and density using several datasets. The script is capable of calculating and visualizing various traffic parameters such as Vehicle Hours Traveled (VHT), Vehicle Miles Traveled (VMT), traffic density, and flow. 
+This Jupyter notebook is designed to analyze different aspects of traffic flow and density using several datasets. The notebook is capable of calculating and visualizing various traffic parameters such as Vehicle Hours Traveled (VHT), Vehicle Miles Traveled (VMT), traffic density, and flow. 
 
 ## Requirements
 
@@ -13,15 +13,15 @@ This Python script is designed to analyze different aspects of traffic flow and 
 
 ## Instructions
 
-To run the script, you need to have four data files named `data1.zip`, `data2.zip`, `data3.zip`, and `data4.zip` in the same directory as the script.
+To run the notebook, you need to have four data files named `data1.zip`, `data2.zip`, `data3.zip`, and `data4.zip` in the same directory as the notebook. Alternatively, you can download the datasets from the following link: [https://www.dropbox.com/s/8t8iyt80pugw7cx/problem2.4-datasets.zip?dl=0](https://www.dropbox.com/s/8t8iyt80pugw7cx/problem2.4-datasets.zip?dl=0)
 
-When running the script, you'll be prompted to choose one of the datasets to consider for the analysis. Enter your choice as a number between 1 and 4.
+When running the notebook, you'll be prompted to choose one of the datasets to consider for the analysis. Enter your choice as a number between 1 and 4.
 
-The script then reads the chosen dataset, performs calculations and outputs visualizations such as Flow-Density and Speed-Density plots. At the end, it also generates an Excel file named `Final_Results.xlsx` containing cumulative results.
+The notebook then reads the chosen dataset, performs calculations and outputs visualizations such as Flow-Density and Speed-Density plots. At the end, it also generates an Excel file named `Final_Results.xlsx` containing cumulative results.
 
 ## Code Structure
 
-The script is divided into several sections:
+The notebook is divided into several sections:
 
 1. **Import Statements**: The necessary libraries are imported.
 2. **Data Loading**: The dataset is chosen and loaded into pandas DataFrames.
