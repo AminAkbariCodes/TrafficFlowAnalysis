@@ -1,6 +1,6 @@
 # Traffic Flow and Density Analysis
 
-This Jupyter notebook is designed to analyze different aspects of traffic flow and density using several datasets. The notebook is capable of calculating and visualizing various traffic parameters such as Vehicle Hours Traveled (VHT), Vehicle Miles Traveled (VMT), traffic density, and flow. 
+This Jupyter notebook is designed to analyze different aspects of traffic flow and density using several datasets. The notebook is capable of calculating and visualizing various traffic parameters such as Vehicle Hours Traveled (VHT), Vehicle Miles Traveled (VMT), traffic density, and flow.
 
 ## Requirements
 
