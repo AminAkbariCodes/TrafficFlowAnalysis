@@ -1,15 +1,30 @@
-# Traffic Flow and Density Analysis
+# Traffic Flow Analysis
 
 This Jupyter notebook is designed to analyze different aspects of traffic flow and density using several datasets. The notebook is capable of calculating and visualizing various traffic parameters such as Vehicle Hours Traveled (VHT), Vehicle Miles Traveled (VMT), traffic density, and flow.
 
+## Overview
+
+This repository contains a Jupyter notebook used to analyze traffic flow on a 900 ft stretch of I-80 in San Francisco, CA. The data for this project is derived from the NGSIM project and includes average densities, speeds, and flow rates for different lanes.
+
+## Dataset
+
+The data sets are provided as zipped text files and have been split into subsets, with each subset containing three minutes of data. Each subset includes the following information:
+
+2. Vehicle ID
+1. Frame ID: Each frame equals 1/15 second in data set 1, and 1/10 second in other data sets.
+3. Longitudinal distance from the upstream boundary: The upstream boundary is 0, and the downstream boundary is 900 ft.
+4. Vehicle class: 2 for cars, and 3 for trucks. Motorcycles have been removed.
+5. Lane ID: 1 for the left-most HOV lane, 2 and 6 from left to right are the regular lanes.
+
 ## Requirements
 
-- Python 3.7+
+- Python 3.x+
 - pandas
 - numpy
 - matplotlib
 - scipy
 - IPython
+- zipfile
 
 ## Instructions
 
