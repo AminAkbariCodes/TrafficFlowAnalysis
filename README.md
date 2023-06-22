@@ -10,8 +10,8 @@ This repository contains a Jupyter notebook used to analyze traffic flow on a 90
 
 The data sets are provided as zipped text files and have been split into subsets, with each subset containing three minutes of data. Each subset includes the following information:
 
-2. Vehicle ID
-1. Frame ID: Each frame equals 1/15 second in data set 1, and 1/10 second in other data sets.
+1. Vehicle ID
+2. Frame ID: Each frame equals 1/15 second in data set 1, and 1/10 second in other data sets.
 3. Longitudinal distance from the upstream boundary: The upstream boundary is 0, and the downstream boundary is 900 ft.
 4. Vehicle class: 2 for cars, and 3 for trucks. Motorcycles have been removed.
 5. Lane ID: 1 for the left-most HOV lane, 2 and 6 from left to right are the regular lanes.
